@@ -5,7 +5,7 @@ import { selectGenreOrCategory } from '../../Feature/currentGenreOrCategory';
 import {useSelector} from 'react-redux';
 import { useGetMoviesQuery } from '../../Services/TMDB';
 import MovieList from '../../components/MovieList/MovieList';
-const Movies= () => {
+const Movies = () => {
 
   const [page, setPage] = useState(1)  
 

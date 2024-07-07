@@ -12,7 +12,7 @@ const Actors = () => {
   const movies = {
     results:featured?.cast
   }
-  console.log(featured?.cast);
+  
   return data?.name ? (
     <Box>
       <Grid

@@ -12,9 +12,9 @@ const initialState = {
     reducers:{
         setUser:(state,action) => {
             state.user = action.payload;
-            state.isAuthenticated=true;
+            state.isAuthenticated = true;
             state.sessionId = localStorage.getItem('session')
-            localStorage.setItem('accountId') = action.payload.id
+            localStorage.setItem('accountId',action.payload.id)  
 
         }
     }

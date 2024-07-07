@@ -6,7 +6,7 @@ const DarkLightModeToggler = () => {
     const theme = useTheme();
     const colorMode = useContext(ColorModeContext);
     console.log(theme.palette.mode)
-const isMobile = useMediaQuery('(max-width:37.5rem)');
+   const isMobile = useMediaQuery('(max-width:37.5rem)');
   return (
     <div>
     {theme.palette.mode === "light" ? (

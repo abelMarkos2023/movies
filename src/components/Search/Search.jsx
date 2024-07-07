@@ -5,7 +5,7 @@ import {useLocation} from 'react-router-dom';
 import {useDispatch,useSelector} from 'react-redux'
 import { searchMovie } from '../../Feature/currentGenreOrCategory';
 const Search = () => {
-    const handleChange = e => {
+    const handleChange = () => {
     if(e.key === 'Enter'){
         dispatch(searchMovie(query))
         setQuery('')
